@@ -1,0 +1,52 @@
+.main-container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 20px auto auto auto auto auto 40px;
+    grid-template-areas:
+    "m m m m m m m m m m m m"
+    "pc pc pc pc h h h h h h h h"
+    "cc cc cc cc w w w w w w w w"
+    "ec ec ec ec wp wp wp wp wp wp wp wp"
+    "ec ec ec ec p p p p p2 p2 p2 p2"
+    "ec ec ec ec p3 p3 p3 p3 p4 p4 p4 p4"
+    "f f f f f f f f f f f f"
+}
+.menu{
+    grid-area: m;
+}
+.container-h1{
+    grid-area: h;
+}
+.photo-container{
+    grid-area: pc;
+}
+.contact-container{
+    grid-area: cc;
+}
+.work{
+    grid-area: w;
+}
+.portfolio{
+    grid-area: p;
+}
+.portfolio-2{
+    grid-area: p2;
+}
+.portfolio-3{
+    grid-area: p3
+}
+.portfolio-4{
+    grid-area: p4;
+}
+.empty-container{
+    grid-area: ec;
+}
+.footer{
+    grid-area: f;
+}
+.header2-container{
+    grid-area: wp;
+
+}
+
